@@ -13,6 +13,7 @@ import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.TimeUnit
 
 class GithubReposViewModel(
+    //viewmodel이 Repository를 의존함
     private val repository: GithubRepository =
         GithubRepository()
 ) : BaseViewModel() {
